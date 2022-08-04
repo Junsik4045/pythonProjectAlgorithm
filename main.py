@@ -1,3 +1,8 @@
-a = input()
+a, b = map(int, input().split())
 
-print(a) 
+for num in range(a, b + 1):
+    print(num)
+
+
+
+
